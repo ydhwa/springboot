@@ -1,6 +1,8 @@
 # Created by https://www.gitignore.io/api/windows,eclipse
 # Edit at https://www.gitignore.io/?templates=windows,eclipse
 
+# 각 자식 프로젝트의 타겟은 workspace에서 무시하도록 설정함
+
 ### Eclipse ###
 .metadata
 bin/
