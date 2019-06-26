@@ -49,5 +49,11 @@ public class GuestbookController {
 		guestbookService.deleteGuestbook(new GuestbookVo(no, password));
 		return "redirect:/guestbook/list";
 	}
+	
+	// 방명록 JSP 페이지
+	@RequestMapping("/timeline")
+	public String timeline() {
+		return "guestbook/index-ajax";
+	}
 
 }
